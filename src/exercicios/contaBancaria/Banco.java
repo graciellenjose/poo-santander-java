@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Banco extends Conta{
 
-    private static String menu = "O que você deseja fazer? \n1 - Depósito\n2 - Saque\n3 - Verificar saldo\n4 - Pagar boletos\n5 - Sair";
+    private static final String menu = "O que você deseja fazer? \n1 - Depósito\n2 - Saque\n3 - Verificar saldo\n4 - Pagar boletos\n5 - Sair";
 
     public static void main(String[] args){
         Conta conta = new Conta();
